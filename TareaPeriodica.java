@@ -22,12 +22,11 @@ public class TareaPeriodica{
 	public void desactivar() { activa = false; }
 	
 	public boolean necesitaEjecucion() {
-		return false;
+
 		// Metodo blanco intencionalmente
 	}
 	
 	public int ejecutarTarea() {
-		return 0;
 		// Método blanco intencionalmente
 	}
 	
