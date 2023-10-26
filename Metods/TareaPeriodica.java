@@ -1,3 +1,5 @@
+package Metods;
+
 import java.util.*;
 
 public abstract class TareaPeriodica{
