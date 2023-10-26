@@ -40,4 +40,11 @@ public class Ejecutor extends TareaPeriodica {
         return -1;
     }
 
+    @Override
+    public void run() {
+        if(this.necesitaEjecucion()) {
+            this.ejecutarTarea();
+        }
+    }
+
 }
