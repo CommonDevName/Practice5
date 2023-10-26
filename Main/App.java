@@ -12,10 +12,12 @@ public class App {
         //Scanner leer = new Scanner(System.in);
         //System.out.println("Escribe un commando	para ejecutar");
         //e.setComando(leer.next());
-        Reloj e = new Reloj();
-        if(e.necesitaEjecucion())	{
-            e.ejecutarTarea();
-        }
+        //Reloj e = new Reloj();
+        //if(e.necesitaEjecucion())	{
+            //e.ejecutarTarea();
+        //}
+        new Thread(new Reloj()).start();
+        new Thread(new Ejecutor("Calc", 0)).start();
     }
 }
 
